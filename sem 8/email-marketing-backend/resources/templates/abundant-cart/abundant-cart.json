@@ -1,0 +1,1052 @@
+{
+  "counters": {
+    "u_row": 16,
+    "u_column": 22,
+    "u_content_menu": 1,
+    "u_content_text": 33,
+    "u_content_image": 10,
+    "u_content_button": 4,
+    "u_content_divider": 1,
+    "u_content_heading": 4,
+    "u_content_social": 1
+  },
+  "body": {
+    "id": "0QFAKPxyzM",
+    "rows": [
+      {
+        "id": "VGlg8hAsog",
+        "cells": [
+          1
+        ],
+        "columns": [
+          {
+            "id": "MHX8NdNWA4",
+            "contents": [
+              {
+                "id": "ZueU5j2Pq3",
+                "type": "image",
+                "values": {
+                  "containerPadding": "10px",
+                  "anchor": "",
+                  "src": {
+                    "url": "https://assets.unlayer.com/projects/0/1750781218270-cart.png",
+                    "width": 185,
+                    "height": 158,
+                    "filename": "cart.png",
+                    "contentType": "image/png",
+                    "size": 16422,
+                    "dynamic": true
+                  },
+                  "textAlign": "center",
+                  "altText": "",
+                  "action": {
+                    "name": "web",
+                    "values": {
+                      "href": "",
+                      "target": "_blank"
+                    }
+                  },
+                  "displayCondition": null,
+                  "_styleGuide": null,
+                  "_meta": {
+                    "htmlID": "u_content_image_9",
+                    "htmlClassNames": "u_content_image"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true,
+                  "locked": false,
+                  "pending": false
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_14",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "0px",
+          "anchor": "",
+          "_meta": {
+            "htmlID": "u_row_9",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false
+        }
+      },
+      {
+        "id": "G7hkq7UCGR",
+        "cells": [
+          1
+        ],
+        "columns": [
+          {
+            "id": "CtHsv-26M1",
+            "contents": [
+              {
+                "id": "ts0Hs8zloL",
+                "type": "heading",
+                "values": {
+                  "containerPadding": "10px",
+                  "anchor": "",
+                  "headingType": "h1",
+                  "fontFamily": {
+                    "label": "Montserrat",
+                    "value": "'Montserrat',sans-serif",
+                    "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+                    "defaultFont": true,
+                    "weights": [
+                      400,
+                      700
+                    ]
+                  },
+                  "fontWeight": 700,
+                  "fontSize": "24px",
+                  "color": "#1d1d1f",
+                  "textAlign": "center",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "displayCondition": null,
+                  "_styleGuide": null,
+                  "_meta": {
+                    "htmlID": "u_content_heading_4",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true,
+                  "locked": false,
+                  "text": "Oops! You left something behind...",
+                  "_languages": {}
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_15",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "0px",
+          "anchor": "",
+          "_meta": {
+            "htmlID": "u_row_10",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false
+        }
+      },
+      {
+        "id": "-3EPy5RF_-",
+        "cells": [
+          1
+        ],
+        "columns": [
+          {
+            "id": "NcE9DQW-mt",
+            "contents": [
+              {
+                "id": "HPx4pCjGzc",
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "anchor": "",
+                  "fontFamily": {
+                    "label": "Montserrat",
+                    "value": "'Montserrat',sans-serif",
+                    "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+                    "defaultFont": true,
+                    "weights": [
+                      400,
+                      700
+                    ]
+                  },
+                  "fontSize": "20px",
+                  "color": "#1d1d1f",
+                  "textAlign": "center",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "displayCondition": null,
+                  "_styleGuide": null,
+                  "_meta": {
+                    "htmlID": "u_content_text_25",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true,
+                  "locked": false,
+                  "text": "<p style=\"line-height: 140%;\">Still thinking it over? Here's 10% off</p>",
+                  "_languages": {}
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_16",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "0px",
+          "anchor": "",
+          "_meta": {
+            "htmlID": "u_row_11",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false
+        }
+      },
+      {
+        "id": "U2X4rbmQWY",
+        "cells": [
+          1
+        ],
+        "columns": [
+          {
+            "id": "0YYqkT2Ec_",
+            "contents": [
+              {
+                "id": "gSEn-CVoQP",
+                "type": "text",
+                "values": {
+                  "containerPadding": "30px 10px 10px",
+                  "anchor": "",
+                  "fontSize": "16px",
+                  "color": "#1d1d1f",
+                  "textAlign": "center",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "displayCondition": null,
+                  "_styleGuide": null,
+                  "_meta": {
+                    "htmlID": "u_content_text_26",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true,
+                  "locked": false,
+                  "text": "<p style=\"line-height: 140%;\">Use this coupon at checkout</p>",
+                  "_languages": {}
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_17",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "0px",
+          "anchor": "",
+          "_meta": {
+            "htmlID": "u_row_12",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false
+        }
+      },
+      {
+        "id": "SL9rDq472J",
+        "cells": [
+          1
+        ],
+        "columns": [
+          {
+            "id": "Acou4VHU4c",
+            "contents": [
+              {
+                "id": "IOcMTUAz9Q",
+                "type": "button",
+                "values": {
+                  "href": {
+                    "name": "web",
+                    "values": {
+                      "href": "",
+                      "target": "_blank"
+                    }
+                  },
+                  "buttonColors": {
+                    "color": "#FFFFFF",
+                    "backgroundColor": "#51968c",
+                    "hoverColor": "#FFFFFF",
+                    "hoverBackgroundColor": "#3AAEE0"
+                  },
+                  "size": {
+                    "autoWidth": true,
+                    "width": "100%"
+                  },
+                  "fontSize": "14px",
+                  "lineHeight": "120%",
+                  "textAlign": "center",
+                  "padding": "10px 20px",
+                  "border": {
+                    "borderTopWidth": "2px",
+                    "borderTopStyle": "dashed",
+                    "borderTopColor": "#ffffff",
+                    "borderLeftWidth": "2px",
+                    "borderLeftStyle": "dashed",
+                    "borderLeftColor": "#ffffff",
+                    "borderRightWidth": "2px",
+                    "borderRightStyle": "dashed",
+                    "borderRightColor": "#ffffff",
+                    "borderBottomWidth": "2px",
+                    "borderBottomStyle": "dashed",
+                    "borderBottomColor": "#ffffff"
+                  },
+                  "borderRadius": "4px",
+                  "displayCondition": null,
+                  "_styleGuide": null,
+                  "containerPadding": "10px",
+                  "anchor": "",
+                  "_meta": {
+                    "htmlID": "u_content_button_3",
+                    "htmlClassNames": "u_content_button"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true,
+                  "locked": false,
+                  "text": "<span style=\"line-height: 16.8px;\">FIRSTORDER</span>",
+                  "_languages": {},
+                  "calculatedWidth": 131,
+                  "calculatedHeight": 37
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px 0px 40px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_18",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "0px",
+          "anchor": "",
+          "_meta": {
+            "htmlID": "u_row_13",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false
+        }
+      },
+      {
+        "id": "6auB9671wn",
+        "cells": [
+          1,
+          1
+        ],
+        "columns": [
+          {
+            "id": "0BRN6W4L33",
+            "contents": [
+              {
+                "id": "aQtZNHwKK1",
+                "type": "image",
+                "values": {
+                  "containerPadding": "10px",
+                  "anchor": "",
+                  "src": {
+                    "url": "https://assets.unlayer.com/projects/0/1750781890592-acer-aspire-7-0012.webp",
+                    "width": 1200,
+                    "height": 675,
+                    "filename": "acer-aspire-7-0012.webp",
+                    "contentType": "image/webp",
+                    "size": 26832,
+                    "dynamic": true,
+                    "autoWidth": false,
+                    "maxWidth": "81%"
+                  },
+                  "textAlign": "right",
+                  "altText": "",
+                  "action": {
+                    "name": "web",
+                    "values": {
+                      "href": "",
+                      "target": "_blank"
+                    }
+                  },
+                  "displayCondition": null,
+                  "_styleGuide": null,
+                  "_meta": {
+                    "htmlID": "u_content_image_10",
+                    "htmlClassNames": "u_content_image"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true,
+                  "locked": false,
+                  "pending": false
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_19",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "id": "Qzoa4acR7d",
+            "contents": [
+              {
+                "id": "Ajx8VXxro7",
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px 10px 10px 20px",
+                  "anchor": "",
+                  "fontFamily": {
+                    "label": "Montserrat",
+                    "value": "'Montserrat',sans-serif",
+                    "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+                    "defaultFont": true,
+                    "weights": [
+                      400,
+                      700
+                    ]
+                  },
+                  "fontWeight": 700,
+                  "fontSize": "24px",
+                  "color": "#1d1d1f",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "displayCondition": null,
+                  "_styleGuide": null,
+                  "_meta": {
+                    "htmlID": "u_content_text_29",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true,
+                  "locked": false,
+                  "text": "<p style=\"line-height: 140%;\">Acer Aspire</p>",
+                  "_languages": {}
+                }
+              },
+              {
+                "id": "ZeY2fm9Ev6",
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px 10px 10px 20px",
+                  "anchor": "",
+                  "fontWeight": 700,
+                  "fontSize": "20px",
+                  "color": "#1d1d1f",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "displayCondition": null,
+                  "_styleGuide": null,
+                  "_meta": {
+                    "htmlID": "u_content_text_30",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true,
+                  "locked": false,
+                  "text": "<p style=\"line-height: 140%;\">₹34,999</p>",
+                  "_languages": {}
+                }
+              },
+              {
+                "id": "xtah5T4AnU",
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px 10px 10px 17px",
+                  "anchor": "",
+                  "fontSize": "14px",
+                  "color": "#1d1d1f",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "displayCondition": null,
+                  "_styleGuide": null,
+                  "_meta": {
+                    "htmlID": "u_content_text_31",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true,
+                  "locked": false,
+                  "text": "<p style=\"line-height: 140%;\">&nbsp;Quantity : 1</p>",
+                  "_languages": {}
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_20",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "0px",
+          "anchor": "",
+          "_meta": {
+            "htmlID": "u_row_14",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false
+        }
+      },
+      {
+        "id": "3CN9kupGoN",
+        "cells": [
+          1
+        ],
+        "columns": [
+          {
+            "id": "SFJmjoLydn",
+            "contents": [
+              {
+                "id": "kUWI4HNPTX",
+                "type": "button",
+                "values": {
+                  "href": {
+                    "name": "web",
+                    "values": {
+                      "href": "",
+                      "target": "_blank"
+                    }
+                  },
+                  "buttonColors": {
+                    "color": "#FFFFFF",
+                    "backgroundColor": "#ce954b",
+                    "hoverColor": "#FFFFFF",
+                    "hoverBackgroundColor": "#3AAEE0"
+                  },
+                  "size": {
+                    "autoWidth": true,
+                    "width": "100%"
+                  },
+                  "fontFamily": {
+                    "label": "Montserrat",
+                    "value": "'Montserrat',sans-serif",
+                    "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+                    "defaultFont": true,
+                    "weights": [
+                      400,
+                      700
+                    ]
+                  },
+                  "fontWeight": 700,
+                  "fontSize": "17px",
+                  "lineHeight": "130%",
+                  "textAlign": "center",
+                  "padding": "12px 20px",
+                  "border": {},
+                  "borderRadius": "8px",
+                  "displayCondition": null,
+                  "_styleGuide": null,
+                  "containerPadding": "10px",
+                  "anchor": "",
+                  "_meta": {
+                    "htmlID": "u_content_button_4",
+                    "htmlClassNames": "u_content_button"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true,
+                  "locked": false,
+                  "text": "<span style=\"line-height: 22.1px;\">Checkout Now</span>",
+                  "_languages": {},
+                  "calculatedWidth": 171,
+                  "calculatedHeight": 46
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "27px 0px 21px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_21",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "0px",
+          "anchor": "",
+          "_meta": {
+            "htmlID": "u_row_15",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false
+        }
+      },
+      {
+        "id": "Y3hP7EC0k5",
+        "cells": [
+          1
+        ],
+        "columns": [
+          {
+            "id": "opJm1hWb-W",
+            "contents": [
+              {
+                "id": "NWYqWI5aqI",
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "anchor": "",
+                  "fontFamily": {
+                    "label": "Montserrat",
+                    "value": "'Montserrat',sans-serif",
+                    "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+                    "defaultFont": true,
+                    "weights": [
+                      400,
+                      700
+                    ]
+                  },
+                  "fontWeight": 700,
+                  "fontSize": "18px",
+                  "textAlign": "center",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "displayCondition": null,
+                  "_styleGuide": null,
+                  "_meta": {
+                    "htmlID": "u_content_text_32",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true,
+                  "locked": false,
+                  "text": "<p style=\"line-height: 140%;\">Contact Us</p>",
+                  "_languages": {}
+                }
+              },
+              {
+                "id": "yBYInHG7cX",
+                "type": "social",
+                "values": {
+                  "containerPadding": "10px",
+                  "anchor": "",
+                  "icons": {
+                    "iconType": "rounded-black",
+                    "icons": [
+                      {
+                        "name": "Facebook",
+                        "url": "https://facebook.com/"
+                      },
+                      {
+                        "name": "Twitter",
+                        "url": "https://twitter.com/"
+                      },
+                      {
+                        "name": "X",
+                        "url": "https://x.com/"
+                      }
+                    ]
+                  },
+                  "align": "center",
+                  "iconSize": 27,
+                  "spacing": 20,
+                  "displayCondition": null,
+                  "_styleGuide": null,
+                  "_meta": {
+                    "htmlID": "u_content_social_1",
+                    "htmlClassNames": "u_content_social"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true,
+                  "locked": false
+                }
+              },
+              {
+                "id": "-fjDxReeKw",
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "anchor": "",
+                  "fontSize": "14px",
+                  "textAlign": "center",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "displayCondition": null,
+                  "_styleGuide": null,
+                  "_meta": {
+                    "htmlID": "u_content_text_33",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true,
+                  "locked": false,
+                  "text": "<p style=\"line-height: 140%;\"><span style=\"text-decoration: underline; line-height: 19.6px; color: rgb(255, 255, 255);\">Unsubscribe</span></p>",
+                  "_languages": {}
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_22",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "#ce954b",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "0px",
+          "anchor": "",
+          "_meta": {
+            "htmlID": "u_row_16",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false
+        }
+      }
+    ],
+    "headers": [],
+    "footers": [],
+    "values": {
+      "_styleGuide": null,
+      "popupPosition": "center",
+      "popupWidth": "600px",
+      "popupHeight": "auto",
+      "borderRadius": "10px",
+      "contentAlign": "center",
+      "contentVerticalAlign": "center",
+      "contentWidth": 700,
+      "fontFamily": {
+        "label": "Helvetica",
+        "value": "helvetica,sans-serif",
+        "url": "",
+        "weights": null,
+        "defaultFont": true
+      },
+      "textColor": "#ffffff",
+      "popupBackgroundColor": "#FFFFFF",
+      "popupBackgroundImage": {
+        "url": "",
+        "fullWidth": true,
+        "repeat": "no-repeat",
+        "size": "cover",
+        "position": "center"
+      },
+      "popupOverlay_backgroundColor": "rgba(0, 0, 0, 0.1)",
+      "popupCloseButton_position": "top-right",
+      "popupCloseButton_backgroundColor": "#DDDDDD",
+      "popupCloseButton_iconColor": "#000000",
+      "popupCloseButton_borderRadius": "0px",
+      "popupCloseButton_margin": "0px",
+      "popupCloseButton_action": {
+        "name": "close_popup",
+        "attrs": {
+          "onClick": "document.querySelector('.u-popup-container').style.display = 'none';"
+        }
+      },
+      "language": {},
+      "backgroundColor": "#ffffff",
+      "preheaderText": "",
+      "linkStyle": {
+        "body": true,
+        "linkColor": "#0071e3",
+        "linkHoverColor": "#0000ee",
+        "linkUnderline": true,
+        "linkHoverUnderline": true,
+        "inherit": false
+      },
+      "backgroundImage": {
+        "url": "",
+        "fullWidth": true,
+        "repeat": "no-repeat",
+        "size": "custom",
+        "position": "center"
+      },
+      "_meta": {
+        "htmlID": "u_body",
+        "htmlClassNames": "u_body"
+      }
+    }
+  },
+  "schemaVersion": 21
+}

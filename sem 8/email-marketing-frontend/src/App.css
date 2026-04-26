@@ -1,0 +1,26 @@
+.toggle-button {
+  transition: background-color 0.3s ease;
+}
+
+.toggle-circle {
+  transition: transform 0.3s ease;
+}
+
+.move-left {
+  transform: translateX(0);  /* initial position */ 
+}
+
+.md-move-right {
+  transform: translateX(calc(100% + 16px)); 
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.move-right {
+  transform: translateX(calc(100% + 4px));
+}

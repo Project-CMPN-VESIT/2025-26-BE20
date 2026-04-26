@@ -1,0 +1,17 @@
+includes:
+    - ./vendor/larastan/larastan/extension.neon
+
+parameters:
+    level: 5
+
+    paths:
+        - app
+        - bootstrap/app.php
+        - routes
+        - database
+
+    ignoreErrors:
+        - '#Property .+ not found in .+#'  # You can customize these
+        - '#Call to an undefined method Illuminate\\.*#'
+
+    inferPrivatePropertyTypeFromConstructor: true

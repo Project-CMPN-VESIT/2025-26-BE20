@@ -1,0 +1,12 @@
+FROM nginx:alpine
+
+# Create www-data user/group (optional but safe)
+#RUN delgroup www-data 2>/dev/null || true \
+ #&& deluser www-data 2>/dev/null || true \
+ #&& addgroup -g 33 www-data \
+ #&& adduser -u 33 -G www-data -D www-data
+# Copy custom nginx config
+#COPY build/nginx/conf.d/default.conf /etc/nginx/conf.d/default.conf
+
+WORKDIR /var/www
+

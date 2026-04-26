@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: #2F8481;
+  
+  --color-primary-900: #065F5C;
+  
+  --color-custom-green-100: #F0F3F3;
+  --color-custom-green-200: #EDF9EC;
+  --color-custom-green-300: #B9CFB7;
+  --color-custom-green-400: #A2C4A0;
+  
+  --color-secondary: #F4E8D4;
+  --color-secondary-100: #E8DECC;
+  
+  --color-success: #61AC28;
+  --color-info: #1097DC;
+  --color-warning: #F4CA0C;
+  --color-danger: #9E353B;
+  
+  --color-accent: hsl(94 62% 42%);
+  --color-border: hsl(115 20% 76%);
+  --color-dark-secondary: #081615;
+  --color-dark-secondary-200: #1E2423;
+
+
+  --color-muted-foreground: hsl(178 20% 40%);
+
+  --color-foreground: hsl(174 47% 6%);
+
+  --color-background: hsl(0 0% 100%);
+}
+
+
+.light-secondary {
+  background-color: #f4e8d4;
+  color: #000;
+}
+
+.light-primary {
+  background-color: #2f8481;
+  color: #FFF;
+}
+
+.transition-effect {
+  transition: all .3s ease-in-out;
+} /* Add this class for buttons or wherever you want the transition effect on hover, active tabs, etc*/

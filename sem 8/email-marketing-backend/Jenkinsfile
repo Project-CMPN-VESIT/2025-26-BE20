@@ -1,0 +1,89 @@
+pipeline {
+    agent any
+
+    environment {
+        SSH_CREDENTIALS_ID = 'emailmarketing-ssh-credentials'
+        REMOTE_USER = 'emailmarketing'
+        REMOTE_HOST = '85.215.211.40'
+        PROJECT_PATH = '/home/emailmarketing/projects/email-marketing-backend'
+    }
+
+    stages {
+        stage ("Generate Environment") {
+            steps {
+                withCredentials([
+                    string(credentialsId: 'DB_DATABASE',variable: 'DB_DATABASE'),
+                    string(credentialsId: 'DB_USERNAME', variable: 'DB_USERNAME'),
+                    string(credentialsId: 'DB_PASSWORD', variable: 'DB_PASSWORD'),
+                    string(credentialsId: 'DB_HOST', variable: 'DB_HOST'),
+                    string(credentialsId: 'REDIS_HOST', variable: 'REDIS_HOST'),
+                    string(credentialsId: 'APP_KEY', variable: 'APP_KEY'),
+                    string(credentialsId: 'JWT_SECRET', variable: 'JWT_SECRET')
+                ]) {
+                    script{
+                        def envCommands = """
+                            cd ${PROJECT_PATH}
+                            cp .env.skeleton .env
+                            echo "DB_DATABASE=${DB_DATABASE}" >> .env
+                            echo "DB_USERNAME=${DB_USERNAME}" >> .env
+                            echo "DB_PASSWORD=${DB_PASSWORD}" >> .env
+                            echo "DB_HOST=${DB_HOST}" >> .env
+                            echo "REDIS_HOST=${REDIS_HOST}" >> .env
+                            echo "APP_KEY=${APP_KEY}" >> .env
+                            echo "JWT_SECRET=${JWT_SECRET}" >> .env
+                            cat .env
+                        """
+
+                        sshagent (credentials: [env.SSH_CREDENTIALS_ID]) {
+                            sh """
+                                ssh -tt -o StrictHostKeyChecking=no ${REMOTE_USER}@${REMOTE_HOST} << EOF
+                                ${envCommands}
+                                exit
+                                EOF
+                            """
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Pull Project') {
+            steps {
+                script {
+                    def pullCommands = """
+                        cd ${PROJECT_PATH}
+                        git pull origin main
+                    """
+
+                    sshagent (credentials: [env.SSH_CREDENTIALS_ID]) {
+                        sh """
+                            ssh -o StrictHostKeyChecking=no ${REMOTE_USER}@${REMOTE_HOST} '${pullCommands}'
+                        """
+                    }
+                }
+            }
+        }
+
+        stage('Login and Build Containers') {
+            steps {
+                script {
+                    def buildCommands = """
+                        cd ${PROJECT_PATH}
+                        docker compose down
+                        docker compose up --build -d
+                        docker exec email_marketing_backend bash -c "mkdir test"
+                    """
+
+                    sshagent (credentials: [env.SSH_CREDENTIALS_ID]) {
+                        sh """
+                            ssh -tt -o StrictHostKeyChecking=no ${REMOTE_USER}@${REMOTE_HOST} << EOF
+                            ${buildCommands}
+                            exit
+                            EOF
+                        """
+                    }
+                }
+            }
+        }
+    }
+}
